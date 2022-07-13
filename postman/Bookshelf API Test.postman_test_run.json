@@ -1,0 +1,2346 @@
+{
+	"id": "971d03dc-f4f2-4f77-859d-0fd8f6464457",
+	"name": "Bookshelf API Test",
+	"timestamp": "2022-07-13T19:46:08.150Z",
+	"collection_id": "0-da6452fa-eede-42e3-b75d-66f2b512cb85",
+	"folder_id": 0,
+	"environment_id": "02d3b2bc-a25f-4cb6-9521-f74623e8cb4c",
+	"totalPass": 870,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "3441bae7-0f87-4ec5-b325-05dea03d9d72",
+			"name": "[Mandatory] Add Book With Complete Data",
+			"time": 2,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"status code should be 201": true,
+				"response header Content-Type should be application/json": true,
+				"response body should be an object": true,
+				"response body should have correct property and value": true,
+				"response body data should contain bookId": true
+			},
+			"testPassFailCounts": {
+				"status code should be 201": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response header Content-Type should be application/json": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body should be an object": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body should have correct property and value": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body data should contain bookId": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				5,
+				2,
+				5,
+				3,
+				2,
+				3,
+				3,
+				4,
+				4,
+				2
+			],
+			"allTests": [
+				{
+					"status code should be 201": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true,
+					"response body data should contain bookId": true
+				},
+				{
+					"status code should be 201": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true,
+					"response body data should contain bookId": true
+				},
+				{
+					"status code should be 201": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true,
+					"response body data should contain bookId": true
+				},
+				{
+					"status code should be 201": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true,
+					"response body data should contain bookId": true
+				},
+				{
+					"status code should be 201": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true,
+					"response body data should contain bookId": true
+				},
+				{
+					"status code should be 201": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true,
+					"response body data should contain bookId": true
+				},
+				{
+					"status code should be 201": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true,
+					"response body data should contain bookId": true
+				},
+				{
+					"status code should be 201": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true,
+					"response body data should contain bookId": true
+				},
+				{
+					"status code should be 201": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true,
+					"response body data should contain bookId": true
+				},
+				{
+					"status code should be 201": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true,
+					"response body data should contain bookId": true
+				}
+			]
+		},
+		{
+			"id": "3d50681c-d3f7-4417-b180-b8c8f6d2ebeb",
+			"name": "[Mandatory] Add Book Without Name",
+			"time": 3,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"status code should be 400": true,
+				"response header Content-Type should be application/json": true,
+				"response body should be an object": true,
+				"response body should have correct property and value": true
+			},
+			"testPassFailCounts": {
+				"status code should be 400": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response header Content-Type should be application/json": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body should be an object": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body should have correct property and value": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				3,
+				2,
+				3,
+				3,
+				3,
+				2,
+				4,
+				3,
+				2,
+				3
+			],
+			"allTests": [
+				{
+					"status code should be 400": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 400": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 400": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 400": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 400": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 400": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 400": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 400": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 400": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 400": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				}
+			]
+		},
+		{
+			"id": "5f3ae98b-2200-4244-9a3e-e6204e8b2f01",
+			"name": "[Mandatory] Add Book with Page Read More Than Page Count",
+			"time": 3,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"status code should be 400": true,
+				"response header Content-Type should be application/json": true,
+				"response body should be an object": true,
+				"response body should have correct property and value": true
+			},
+			"testPassFailCounts": {
+				"status code should be 400": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response header Content-Type should be application/json": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body should be an object": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body should have correct property and value": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				2,
+				4,
+				2,
+				3
+			],
+			"allTests": [
+				{
+					"status code should be 400": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 400": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 400": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 400": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 400": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 400": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 400": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 400": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 400": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 400": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				}
+			]
+		},
+		{
+			"id": "1d5f0638-8da5-46d3-9a69-5f7acef3bc6a",
+			"name": "[Mandatory] Get All Books",
+			"time": 2,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"status code should be 200": true,
+				"response header Content-Type should be application/json": true,
+				"response body should be an object": true,
+				"response body object should have correct property and value": true,
+				"response body data object should have a array books and contains one items": true,
+				"the books should have contains only id, name, and publisher property": true
+			},
+			"testPassFailCounts": {
+				"status code should be 200": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response header Content-Type should be application/json": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body should be an object": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body object should have correct property and value": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body data object should have a array books and contains one items": {
+					"pass": 10,
+					"fail": 0
+				},
+				"the books should have contains only id, name, and publisher property": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				3,
+				2,
+				2,
+				3,
+				3,
+				2,
+				3,
+				2,
+				2,
+				2
+			],
+			"allTests": [
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains one items": true,
+					"the books should have contains only id, name, and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains one items": true,
+					"the books should have contains only id, name, and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains one items": true,
+					"the books should have contains only id, name, and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains one items": true,
+					"the books should have contains only id, name, and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains one items": true,
+					"the books should have contains only id, name, and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains one items": true,
+					"the books should have contains only id, name, and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains one items": true,
+					"the books should have contains only id, name, and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains one items": true,
+					"the books should have contains only id, name, and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains one items": true,
+					"the books should have contains only id, name, and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains one items": true,
+					"the books should have contains only id, name, and publisher property": true
+				}
+			]
+		},
+		{
+			"id": "697444fb-a232-46ee-b04a-24a216da853e",
+			"name": "[Mandatory] Get Detail Books With Correct Id",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"response code should be 200": true,
+				"response header Content-Type should be application/json": true,
+				"response body should an object": true,
+				"response body object should contain correct property and value": true,
+				"response body data object should contain book object": true,
+				"book object should contain correct property and value": true
+			},
+			"testPassFailCounts": {
+				"response code should be 200": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response header Content-Type should be application/json": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body should an object": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body object should contain correct property and value": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body data object should contain book object": {
+					"pass": 10,
+					"fail": 0
+				},
+				"book object should contain correct property and value": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				3,
+				2,
+				2,
+				2,
+				3,
+				2,
+				3,
+				3,
+				2,
+				3
+			],
+			"allTests": [
+				{
+					"response code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should an object": true,
+					"response body object should contain correct property and value": true,
+					"response body data object should contain book object": true,
+					"book object should contain correct property and value": true
+				},
+				{
+					"response code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should an object": true,
+					"response body object should contain correct property and value": true,
+					"response body data object should contain book object": true,
+					"book object should contain correct property and value": true
+				},
+				{
+					"response code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should an object": true,
+					"response body object should contain correct property and value": true,
+					"response body data object should contain book object": true,
+					"book object should contain correct property and value": true
+				},
+				{
+					"response code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should an object": true,
+					"response body object should contain correct property and value": true,
+					"response body data object should contain book object": true,
+					"book object should contain correct property and value": true
+				},
+				{
+					"response code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should an object": true,
+					"response body object should contain correct property and value": true,
+					"response body data object should contain book object": true,
+					"book object should contain correct property and value": true
+				},
+				{
+					"response code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should an object": true,
+					"response body object should contain correct property and value": true,
+					"response body data object should contain book object": true,
+					"book object should contain correct property and value": true
+				},
+				{
+					"response code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should an object": true,
+					"response body object should contain correct property and value": true,
+					"response body data object should contain book object": true,
+					"book object should contain correct property and value": true
+				},
+				{
+					"response code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should an object": true,
+					"response body object should contain correct property and value": true,
+					"response body data object should contain book object": true,
+					"book object should contain correct property and value": true
+				},
+				{
+					"response code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should an object": true,
+					"response body object should contain correct property and value": true,
+					"response body data object should contain book object": true,
+					"book object should contain correct property and value": true
+				},
+				{
+					"response code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should an object": true,
+					"response body object should contain correct property and value": true,
+					"response body data object should contain book object": true,
+					"book object should contain correct property and value": true
+				}
+			]
+		},
+		{
+			"id": "2cbce364-f40c-43ac-9cdb-f899d4164230",
+			"name": "[Mandatory] Get Detail Books With Invalid Id",
+			"time": 2,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"response code should be 404": true,
+				"response header Content-Type should be application/json": true,
+				"response body should an object": true,
+				"response body object should contain correct property and value": true
+			},
+			"testPassFailCounts": {
+				"response code should be 404": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response header Content-Type should be application/json": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body should an object": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body object should contain correct property and value": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				3,
+				2,
+				2,
+				2,
+				3,
+				2,
+				3,
+				3,
+				2,
+				2
+			],
+			"allTests": [
+				{
+					"response code should be 404": true,
+					"response header Content-Type should be application/json": true,
+					"response body should an object": true,
+					"response body object should contain correct property and value": true
+				},
+				{
+					"response code should be 404": true,
+					"response header Content-Type should be application/json": true,
+					"response body should an object": true,
+					"response body object should contain correct property and value": true
+				},
+				{
+					"response code should be 404": true,
+					"response header Content-Type should be application/json": true,
+					"response body should an object": true,
+					"response body object should contain correct property and value": true
+				},
+				{
+					"response code should be 404": true,
+					"response header Content-Type should be application/json": true,
+					"response body should an object": true,
+					"response body object should contain correct property and value": true
+				},
+				{
+					"response code should be 404": true,
+					"response header Content-Type should be application/json": true,
+					"response body should an object": true,
+					"response body object should contain correct property and value": true
+				},
+				{
+					"response code should be 404": true,
+					"response header Content-Type should be application/json": true,
+					"response body should an object": true,
+					"response body object should contain correct property and value": true
+				},
+				{
+					"response code should be 404": true,
+					"response header Content-Type should be application/json": true,
+					"response body should an object": true,
+					"response body object should contain correct property and value": true
+				},
+				{
+					"response code should be 404": true,
+					"response header Content-Type should be application/json": true,
+					"response body should an object": true,
+					"response body object should contain correct property and value": true
+				},
+				{
+					"response code should be 404": true,
+					"response header Content-Type should be application/json": true,
+					"response body should an object": true,
+					"response body object should contain correct property and value": true
+				},
+				{
+					"response code should be 404": true,
+					"response header Content-Type should be application/json": true,
+					"response body should an object": true,
+					"response body object should contain correct property and value": true
+				}
+			]
+		},
+		{
+			"id": "9c24a3e3-e610-46c8-925e-6b63ef6665e2",
+			"name": "[Mandatory] Update Book With Complete Data",
+			"time": 2,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"status code should be 200": true,
+				"response header Content-Type should be application/json": true,
+				"response body should be an object": true,
+				"response body should have correct property and value": true,
+				"when get detail books": true,
+				"book object should contain updated values": true
+			},
+			"testPassFailCounts": {
+				"status code should be 200": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response header Content-Type should be application/json": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body should be an object": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body should have correct property and value": {
+					"pass": 10,
+					"fail": 0
+				},
+				"when get detail books": {
+					"pass": 10,
+					"fail": 0
+				},
+				"book object should contain updated values": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				8,
+				3,
+				2,
+				2
+			],
+			"allTests": [
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true,
+					"when get detail books": true,
+					"book object should contain updated values": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true,
+					"when get detail books": true,
+					"book object should contain updated values": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true,
+					"when get detail books": true,
+					"book object should contain updated values": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true,
+					"when get detail books": true,
+					"book object should contain updated values": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true,
+					"when get detail books": true,
+					"book object should contain updated values": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true,
+					"when get detail books": true,
+					"book object should contain updated values": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true,
+					"when get detail books": true,
+					"book object should contain updated values": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true,
+					"when get detail books": true,
+					"book object should contain updated values": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true,
+					"when get detail books": true,
+					"book object should contain updated values": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true,
+					"when get detail books": true,
+					"book object should contain updated values": true
+				}
+			]
+		},
+		{
+			"id": "be6b9ae0-9a4b-4de7-a369-b66e24d01b70",
+			"name": "[Mandatory] Update Book Without Name",
+			"time": 3,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"status code should be 400": true,
+				"response header Content-Type should be application/json": true,
+				"response body should be an object": true,
+				"response body should have correct property and value": true
+			},
+			"testPassFailCounts": {
+				"status code should be 400": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response header Content-Type should be application/json": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body should be an object": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body should have correct property and value": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				2,
+				3,
+				3,
+				3,
+				3,
+				3,
+				2,
+				2,
+				2,
+				3
+			],
+			"allTests": [
+				{
+					"status code should be 400": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 400": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 400": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 400": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 400": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 400": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 400": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 400": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 400": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 400": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				}
+			]
+		},
+		{
+			"id": "384c009b-38c8-419b-a3d1-4a61cae0872b",
+			"name": "[Mandatory] Update Book With Page Read More Than Page Count",
+			"time": 3,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"status code should be 400": true,
+				"response header Content-Type should be application/json": true,
+				"response body should be an object": true,
+				"response body should have correct property and value": true
+			},
+			"testPassFailCounts": {
+				"status code should be 400": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response header Content-Type should be application/json": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body should be an object": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body should have correct property and value": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				3,
+				2,
+				2,
+				3,
+				3,
+				4,
+				2,
+				2,
+				3,
+				3
+			],
+			"allTests": [
+				{
+					"status code should be 400": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 400": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 400": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 400": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 400": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 400": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 400": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 400": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 400": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 400": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				}
+			]
+		},
+		{
+			"id": "0818433a-01c7-49c3-bf51-4daf400de359",
+			"name": "[Mandatory] Update Book with Invalid Id",
+			"time": 3,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"status code should be 404": true,
+				"response header Content-Type should be application/json": true,
+				"response body should be an object": true,
+				"response body should have correct property and value": true
+			},
+			"testPassFailCounts": {
+				"status code should be 404": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response header Content-Type should be application/json": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body should be an object": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body should have correct property and value": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				3,
+				2,
+				2,
+				3,
+				2,
+				3,
+				2,
+				3,
+				2,
+				3
+			],
+			"allTests": [
+				{
+					"status code should be 404": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 404": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 404": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 404": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 404": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 404": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 404": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 404": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 404": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 404": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				}
+			]
+		},
+		{
+			"id": "01fe779a-f618-4304-a846-651061d54f6b",
+			"name": "[Mandatory] Delete Book with Correct Id",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"status code should be 200": true,
+				"response header Content-Type should be application/json": true,
+				"response body should be an object": true,
+				"response body should have correct property and value": true,
+				"when get detail books": true,
+				"The book should be not found": true
+			},
+			"testPassFailCounts": {
+				"status code should be 200": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response header Content-Type should be application/json": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body should be an object": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body should have correct property and value": {
+					"pass": 10,
+					"fail": 0
+				},
+				"when get detail books": {
+					"pass": 10,
+					"fail": 0
+				},
+				"The book should be not found": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				2,
+				2,
+				2,
+				2,
+				2,
+				3,
+				3,
+				3,
+				3,
+				4
+			],
+			"allTests": [
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true,
+					"when get detail books": true,
+					"The book should be not found": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true,
+					"when get detail books": true,
+					"The book should be not found": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true,
+					"when get detail books": true,
+					"The book should be not found": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true,
+					"when get detail books": true,
+					"The book should be not found": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true,
+					"when get detail books": true,
+					"The book should be not found": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true,
+					"when get detail books": true,
+					"The book should be not found": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true,
+					"when get detail books": true,
+					"The book should be not found": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true,
+					"when get detail books": true,
+					"The book should be not found": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true,
+					"when get detail books": true,
+					"The book should be not found": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true,
+					"when get detail books": true,
+					"The book should be not found": true
+				}
+			]
+		},
+		{
+			"id": "2c17e948-c93e-43f0-be02-fa762ac7e8dd",
+			"name": "[Mandatory] Delete Book with Invalid Id",
+			"time": 3,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"status code should be 404": true,
+				"response header Content-Type should be application/json": true,
+				"response body should be an object": true,
+				"response body should have correct property and value": true
+			},
+			"testPassFailCounts": {
+				"status code should be 404": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response header Content-Type should be application/json": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body should be an object": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body should have correct property and value": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				3,
+				2,
+				2,
+				2,
+				2,
+				2,
+				3,
+				3,
+				2,
+				3
+			],
+			"allTests": [
+				{
+					"status code should be 404": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 404": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 404": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 404": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 404": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 404": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 404": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 404": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 404": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				},
+				{
+					"status code should be 404": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body should have correct property and value": true
+				}
+			]
+		},
+		{
+			"id": "a192a5c2-051d-4502-b34d-df3d78dd4400",
+			"name": "Add Reading and Finished Book",
+			"time": 2,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3,
+				3,
+				3,
+				2,
+				2,
+				3,
+				3,
+				4,
+				3,
+				2
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "806f59f8-a2f9-4872-89b4-4da0b8de41cb",
+			"name": "Add Reading and Unfinished Book with \"Dicoding\" Name",
+			"time": 2,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3,
+				3,
+				2,
+				3,
+				5,
+				4,
+				3,
+				3,
+				2,
+				2
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "eef28ff8-5825-4f0c-8f1e-e5ce2c2fc93e",
+			"name": "Add Unreading Books and Unfinished Book \"Dicoding\" Name",
+			"time": 3,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3,
+				2,
+				3,
+				3,
+				2,
+				3,
+				3,
+				3,
+				2,
+				3
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "4c01c246-a1c0-422e-83cc-953a43a0e3c8",
+			"name": "Add Unreading Books and Unfinished Book",
+			"time": 2,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3,
+				2,
+				3,
+				2,
+				4,
+				2,
+				3,
+				2,
+				2,
+				2
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "bc26ff15-abbd-4d83-9557-a2e44c6ffce0",
+			"name": "[Optional] Get All Reading Books",
+			"time": 2,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"status code should be 200": true,
+				"response header Content-Type should be application/json": true,
+				"response body should be an object": true,
+				"response body object should have correct property and value": true,
+				"response body data object should have a array books and contains 2 items": true,
+				"the books should have contains only name and publisher property": true
+			},
+			"testPassFailCounts": {
+				"status code should be 200": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response header Content-Type should be application/json": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body should be an object": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body object should have correct property and value": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body data object should have a array books and contains 2 items": {
+					"pass": 10,
+					"fail": 0
+				},
+				"the books should have contains only name and publisher property": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				2,
+				2,
+				2,
+				3,
+				3,
+				3,
+				2,
+				3,
+				2,
+				2
+			],
+			"allTests": [
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains 2 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains 2 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains 2 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains 2 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains 2 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains 2 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains 2 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains 2 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains 2 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains 2 items": true,
+					"the books should have contains only name and publisher property": true
+				}
+			]
+		},
+		{
+			"id": "4477f8e0-0587-42bb-8e33-4ec30cab90ea",
+			"name": "[Optional] Get All Unreading Books",
+			"time": 2,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"status code should be 200": true,
+				"response header Content-Type should be application/json": true,
+				"response body should be an object": true,
+				"response body object should have correct property and value": true,
+				"response body data object should have a array books and contains at 2 items": true,
+				"the books should have contains only name and publisher property": true
+			},
+			"testPassFailCounts": {
+				"status code should be 200": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response header Content-Type should be application/json": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body should be an object": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body object should have correct property and value": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body data object should have a array books and contains at 2 items": {
+					"pass": 10,
+					"fail": 0
+				},
+				"the books should have contains only name and publisher property": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				2,
+				2,
+				3,
+				2,
+				2,
+				2,
+				3,
+				3,
+				3,
+				2
+			],
+			"allTests": [
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains at 2 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains at 2 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains at 2 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains at 2 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains at 2 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains at 2 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains at 2 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains at 2 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains at 2 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains at 2 items": true,
+					"the books should have contains only name and publisher property": true
+				}
+			]
+		},
+		{
+			"id": "080732c9-532e-4d2e-860f-7bec114ff509",
+			"name": "[Optional] Get All Finished Books",
+			"time": 2,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"status code should be 200": true,
+				"response header Content-Type should be application/json": true,
+				"response body should be an object": true,
+				"response body object should have correct property and value": true,
+				"response body data object should have a array books and contains 1 items": true,
+				"the books should have contains only name and publisher property": true
+			},
+			"testPassFailCounts": {
+				"status code should be 200": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response header Content-Type should be application/json": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body should be an object": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body object should have correct property and value": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body data object should have a array books and contains 1 items": {
+					"pass": 10,
+					"fail": 0
+				},
+				"the books should have contains only name and publisher property": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				3,
+				3,
+				2,
+				3,
+				2,
+				3,
+				3,
+				3,
+				2,
+				2
+			],
+			"allTests": [
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains 1 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains 1 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains 1 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains 1 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains 1 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains 1 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains 1 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains 1 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains 1 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains 1 items": true,
+					"the books should have contains only name and publisher property": true
+				}
+			]
+		},
+		{
+			"id": "909bbe24-610b-4435-8e91-13c34e3da75e",
+			"name": "[Optional] Get All Unfinished Books",
+			"time": 2,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"status code should be 200": true,
+				"response header Content-Type should be application/json": true,
+				"response body should be an object": true,
+				"response body object should have correct property and value": true,
+				"response body data object should have a array books and contains 3 items": true,
+				"the books should have contains only name and publisher property": true
+			},
+			"testPassFailCounts": {
+				"status code should be 200": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response header Content-Type should be application/json": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body should be an object": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body object should have correct property and value": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body data object should have a array books and contains 3 items": {
+					"pass": 10,
+					"fail": 0
+				},
+				"the books should have contains only name and publisher property": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				2,
+				3,
+				2,
+				3,
+				2,
+				2,
+				3,
+				3,
+				3,
+				2
+			],
+			"allTests": [
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains 3 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains 3 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains 3 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains 3 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains 3 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains 3 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains 3 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains 3 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains 3 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains 3 items": true,
+					"the books should have contains only name and publisher property": true
+				}
+			]
+		},
+		{
+			"id": "6f30096d-f1b3-44d1-a9b5-e68afcd82436",
+			"name": "[Optional] Get All Books Contains \"Dicoding\" Name",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"status code should be 200": true,
+				"response header Content-Type should be application/json": true,
+				"response body should be an object": true,
+				"response body object should have correct property and value": true,
+				"response body data object should have a array books and contains 2 items": true,
+				"the books should have contains only name and publisher property": true
+			},
+			"testPassFailCounts": {
+				"status code should be 200": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response header Content-Type should be application/json": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body should be an object": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body object should have correct property and value": {
+					"pass": 10,
+					"fail": 0
+				},
+				"response body data object should have a array books and contains 2 items": {
+					"pass": 10,
+					"fail": 0
+				},
+				"the books should have contains only name and publisher property": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				3,
+				3,
+				3,
+				2,
+				2,
+				2,
+				3,
+				3,
+				3,
+				3
+			],
+			"allTests": [
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains 2 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains 2 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains 2 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains 2 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains 2 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains 2 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains 2 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains 2 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains 2 items": true,
+					"the books should have contains only name and publisher property": true
+				},
+				{
+					"status code should be 200": true,
+					"response header Content-Type should be application/json": true,
+					"response body should be an object": true,
+					"response body object should have correct property and value": true,
+					"response body data object should have a array books and contains 2 items": true,
+					"the books should have contains only name and publisher property": true
+				}
+			]
+		}
+	],
+	"count": 10,
+	"totalTime": 560,
+	"collection": {
+		"requests": [
+			{
+				"id": "3441bae7-0f87-4ec5-b325-05dea03d9d72",
+				"method": "POST"
+			},
+			{
+				"id": "3d50681c-d3f7-4417-b180-b8c8f6d2ebeb",
+				"method": "POST"
+			},
+			{
+				"id": "5f3ae98b-2200-4244-9a3e-e6204e8b2f01",
+				"method": "POST"
+			},
+			{
+				"id": "1d5f0638-8da5-46d3-9a69-5f7acef3bc6a",
+				"method": "GET"
+			},
+			{
+				"id": "697444fb-a232-46ee-b04a-24a216da853e",
+				"method": "GET"
+			},
+			{
+				"id": "2cbce364-f40c-43ac-9cdb-f899d4164230",
+				"method": "GET"
+			},
+			{
+				"id": "9c24a3e3-e610-46c8-925e-6b63ef6665e2",
+				"method": "PUT"
+			},
+			{
+				"id": "be6b9ae0-9a4b-4de7-a369-b66e24d01b70",
+				"method": "PUT"
+			},
+			{
+				"id": "384c009b-38c8-419b-a3d1-4a61cae0872b",
+				"method": "PUT"
+			},
+			{
+				"id": "0818433a-01c7-49c3-bf51-4daf400de359",
+				"method": "PUT"
+			},
+			{
+				"id": "01fe779a-f618-4304-a846-651061d54f6b",
+				"method": "DELETE"
+			},
+			{
+				"id": "2c17e948-c93e-43f0-be02-fa762ac7e8dd",
+				"method": "DELETE"
+			},
+			{
+				"id": "a192a5c2-051d-4502-b34d-df3d78dd4400",
+				"method": "POST"
+			},
+			{
+				"id": "806f59f8-a2f9-4872-89b4-4da0b8de41cb",
+				"method": "POST"
+			},
+			{
+				"id": "eef28ff8-5825-4f0c-8f1e-e5ce2c2fc93e",
+				"method": "POST"
+			},
+			{
+				"id": "4c01c246-a1c0-422e-83cc-953a43a0e3c8",
+				"method": "POST"
+			},
+			{
+				"id": "bc26ff15-abbd-4d83-9557-a2e44c6ffce0",
+				"method": "GET"
+			},
+			{
+				"id": "4477f8e0-0587-42bb-8e33-4ec30cab90ea",
+				"method": "GET"
+			},
+			{
+				"id": "080732c9-532e-4d2e-860f-7bec114ff509",
+				"method": "GET"
+			},
+			{
+				"id": "909bbe24-610b-4435-8e91-13c34e3da75e",
+				"method": "GET"
+			},
+			{
+				"id": "6f30096d-f1b3-44d1-a9b5-e68afcd82436",
+				"method": "GET"
+			}
+		]
+	}
+}
