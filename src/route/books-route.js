@@ -14,7 +14,7 @@ const {
 /**
  * Routing
  */
-const booksRoutes = [
+const booksRoute = [
   {
     method: 'POST',
     path: '/books',
@@ -67,4 +67,4 @@ const booksRoutes = [
   }
 ]
 
-module.exports = booksRoutes
+module.exports = booksRoute

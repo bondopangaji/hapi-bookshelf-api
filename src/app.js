@@ -4,7 +4,7 @@
 // https://opensource.org/licenses/MIT
 
 const Hapi = require('@hapi/hapi')
-const routes = require('./routes/books-routes')
+const routes = require('./route/books-route')
 
 /**
  * Server configuration & initialization
